@@ -1,5 +1,6 @@
 {
   	"locale": "nl_NL",
+  	"name":"NL_LANG",
   	"words": {
 		"YES" : "ja",
 	  	"NO" : "nee",
@@ -7,6 +8,10 @@
 		"BYE" : "doei",
 		"ENG_LANG" : "Engels",
 		"NL_LANG":"Nederlands",
-		"FR_LANG":"Frans"
+		"FR_LANG":"Frans",
+	  	"DE_LANG":"Duits",
+		"SETTINGS":"Instellingen",
+		"HOME":"Thuis",
+	  	"TXT_SELECT_LANGUAGE":"Selecteer een taal"
 	}
 }

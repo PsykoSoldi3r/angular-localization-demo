@@ -1,18 +1,12 @@
 <div class="container" style="margin-top:10px;">
     <div class="row">
-        <div class="col-xs-2">
-            Language:
-        </div>
-        <div class="col-xs-10">
-            <select class="form-control" id="exampleSelect1" ng-model="language" ng-change="ChangeLanguage()">
-                <option value="en_US">{{ 'ENG_LANG' | translate }}</option>
-                <option value="nl_NL">{{ 'NL_LANG' | translate }}</option>
-                <option value="fr_FR">{{ 'FR_LANG' | translate }}</option>
-            </select>
+        <div class="col-xs-10"></div>
+        <div class="col-xs-2" style="text-align:right;">
+            <div class="btn btn-primary" ng-click="LoadView('settings')">{{ 'SETTINGS' | translate }}</div>
         </div>
     </div>
     <div class="row" ng-repeat="(key,word) in words">
         <div class="col-xs-6" >{{ word.default }}</div>
-        <div class="col-xs-6" >{{ word.translated | translate }}</div>
+        <div class="col-xs-6" style="text-align:right;">{{ word.translated | translate }}</div>
     </div>
 </div>

@@ -1,5 +1,6 @@
 {
   "locale": "fr_FR",
+  "name":"FR_LANG",
   "words": {
 	"YES" : "oui",
 	"NO" : "non",
@@ -7,6 +8,10 @@
 	"BYE" : "biche",
 	"ENG_LANG" : "Anglais",
 	"NL_LANG":"Hollandais",
-	"FR_LANG":"French"
+	"FR_LANG":"French",
+	"DE_LANG":"Allemand",
+	"SETTINGS":"Paramètres",
+	"HOME":"Domicile",
+	"TXT_SELECT_LANGUAGE":"Sélectionner une langue"
   }
 }

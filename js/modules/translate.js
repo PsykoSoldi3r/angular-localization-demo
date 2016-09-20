@@ -54,7 +54,21 @@ angular.module('translate', ['ngResource'])
 
         this.changeLanguage = function( code ){
             this.currentLanguage = code;
-        }
+        };
+
+        this.GetLanguages = function(){
+            var languages = [];
+
+            for( var i = 0; i < this.languages.length; i++){
+                var language = this.languages[i];
+                languages.push({
+                    name: language.name,
+                    locale: language.locale
+                });
+            }
+
+            return languages;
+        };
     }])
     .filter('translate',[ '$rootScope', '$translate', function ( $rootScope, $translate ){
         function filter( input ){

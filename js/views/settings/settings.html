@@ -1,1 +1,18 @@
-Settings
+<div class="container" style="margin-top:10px;">
+    <div class="row" style="margin-bottom:40px;">
+        <div class="col-xs-2" style="text-align:left;">
+            <div class="btn btn-primary" ng-click="LoadView('')">{{ 'HOME' | translate }}</div>
+        </div>
+        <div class="col-xs-10"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>{{ 'TXT_SELECT_LANGUAGE' | translate }}</p>
+        </div>
+    </div>
+    <div class="row" ng-repeat="(key,language) in languages">
+        <div class="col-xs-12" style="margin-bottom:10px;">
+            <div class="btn btn-primary" ng-click="ChangeLanguage( language.locale )">{{ language.name | translate }}</div>
+        </div>
+    </div>
+</div>

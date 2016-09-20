@@ -1,5 +1,6 @@
 {
     "locale": "en_US",
+    "name":"ENG_LANG",
     "words": {
         "YES" : "yes",
         "NO" : "no",
@@ -7,6 +8,10 @@
         "BYE" : "bye",
         "ENG_LANG" : "English",
         "NL_LANG":"Dutch",
-        "FR_LANG":"French"
+        "FR_LANG":"French",
+        "DE_LANG":"German",
+        "SETTINGS":"Settings",
+        "HOME":"Home",
+        "TXT_SELECT_LANGUAGE":"Select a language"
     }
 }

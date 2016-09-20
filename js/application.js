@@ -27,7 +27,8 @@ application.run(['$rootScope', '$location', '$templateCache', '$route','$sce','$
 			default :'en_US',
 			languages :[
 				'nl_NL',
-				'fr_FR'
+				'fr_FR',
+				'de_DE'
 			]
 		});
 	}

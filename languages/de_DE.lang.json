@@ -1,0 +1,17 @@
+{
+  "locale": "de_DE",
+  "name":"DE_LANG",
+  "words": {
+	"YES" : "ja",
+	"NO" : "nein",
+	"HELLO" : "hallo",
+	"BYE" : "tschüss",
+	"ENG_LANG" : "Englisch",
+	"NL_LANG":"Holländisch",
+	"FR_LANG":"Französisch",
+	"DE_LANG":"Deutsch",
+	"SETTINGS":"Einstellungen",
+	"HOME":"Zuhause",
+	"TXT_SELECT_LANGUAGE":"Wähle eine Sprache"
+  }
+}
