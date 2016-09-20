@@ -1,0 +1,12 @@
+{
+  "locale": "fr_FR",
+  "words": {
+	"YES" : "oui",
+	"NO" : "non",
+	"HELLO" : "bonjour",
+	"BYE" : "biche",
+	"ENG_LANG" : "Anglais",
+	"NL_LANG":"Hollandais",
+	"FR_LANG":"French"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  	"locale": "nl_NL",
+  	"words": {
+		"YES" : "ja",
+	  	"NO" : "nee",
+		"HELLO" : "hallo",
+		"BYE" : "doei",
+		"ENG_LANG" : "Engels",
+		"NL_LANG":"Nederlands",
+		"FR_LANG":"Frans"
+	}
+}

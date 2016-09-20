@@ -1,4 +1,40 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "angular-language-selector",
+  "version": "1.0.0",
+  "description": "Angular Language Selector",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsykoSoldi3r/angular-localization-demo"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/PsykoSoldi3r/angular-localization-demo",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-localization": "0.0.3",
+    "angular-parse": "^0.2.2",
+    "angular-resource": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "bootstrap": "^4.0.0-alpha.3",
+    "fastclick": "^1.0.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-file-include": "^0.14.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "jquery": "^3.1.0",
+    "minimist": "^1.2.0",
+    "parse": "^1.9.1",
+    "tether": "^1.3.4"
+  }
 }
