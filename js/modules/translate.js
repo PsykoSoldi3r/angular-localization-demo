@@ -21,6 +21,8 @@ angular.module('translate', ['ngResource'])
                 var language = newConfig.languages[i];
                 this.loadLanguage( language );
             }
+            
+            $rootScope.$apply();
         };
 
         this.loadLanguage = function( code ){
@@ -28,7 +30,6 @@ angular.module('translate', ['ngResource'])
             var language = $resource( url, {}, { query: { method: "GET" } }).query();
 
             this.languages.push( language );
-            $rootScope.$apply();
         };
 
         this.getWord = function( key ){
