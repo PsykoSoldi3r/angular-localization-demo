@@ -49,7 +49,7 @@ angular.module('translate', ['ngResource'])
                 }
             }
 
-            return key;
+            return "Missing: " + key;
         };
 
         this.changeLanguage = function( code ){
